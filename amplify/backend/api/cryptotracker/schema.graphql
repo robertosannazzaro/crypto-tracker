@@ -1,0 +1,47 @@
+type Coin @model {
+  id: ID
+  name: String!
+  symbol: String!
+  price_usd: String!
+  createdAt: String
+  updatedAt: String
+}
+
+type Query @model {
+  getCoins(limit: Int, start: Int): [Coin]
+  @function(name: "getCryptoList-${env}")
+
+  getHistoricalDatas(cryptocurrency: String!, limit: Int!): [HistoricalData]
+  @function(name: "getHisotricalDataCrypto-${env}")
+}
+
+type Operation
+@model
+@auth(
+  rules: [
+    # Defaults to use the "owner" field.
+    { allow: owner }
+    { allow: groups, groups: ["Admin"] }
+  ]
+) {
+  id: ID!
+  cryptocurrency: String!
+  date: AWSDateTime
+  amount: String!
+  price_usd: String!
+}
+
+type HistoricalData {
+  id: ID
+  time: String!
+  high: Float!
+  low: Float!
+  open: Float!
+  volumefrom: Float!
+  volumeto: Float!
+  close: Float!
+  conversionType: String!
+  conversionSymbol: String!
+  createdAt: String
+  updatedAt: String
+}

@@ -1,0 +1,9 @@
+.home__content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding: 25px;
+  display: flex;
+  height: 50vh;
+  justify-content: space-between;
+}

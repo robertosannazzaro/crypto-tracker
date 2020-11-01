@@ -1,0 +1,7 @@
+.addCoins {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 350px;
+  justify-content: space-between;
+}

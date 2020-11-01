@@ -1,0 +1,25 @@
+.pageHeader__title {
+  color: white;
+  font-weight: 800;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageHeader__user {
+  display: flex;
+  color: white;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageHeader__user > h3 {
+  align-items: center;
+  color: white;
+  font-weight: 300;
+  margin-top: 10px;
+}

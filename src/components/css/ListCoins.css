@@ -1,0 +1,13 @@
+.listCoins__noScroll {
+  overflow: auto;
+  max-height: 300px;
+  max-width: 250;
+}
+
+.listCoins__noScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.listCoins {
+  width: 450px;
+}
