@@ -1,3 +1,14 @@
+## Crypto Tracker
+
+![home](home.png)
+
+This app let a user sign up and track his cryptocurrency investments. The app leverages AWS Amplify and GraphQL to download cryptocurrencies informations from cryptocompare.
+The frontend has been developed with React.js together with [AntDesign](https://ant.design/) and [bizcharts](https://bizcharts.net/).
+
+![dashboard](dashboard.png)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
