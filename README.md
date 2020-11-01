@@ -1,6 +1,6 @@
 ## Crypto Tracker
 
-*try it* https://master.dt6v2bbyp0hpu.amplifyapp.com/
+**try it here! https://master.dt6v2bbyp0hpu.amplifyapp.com/ **
 
 ![home](home.png)
 
