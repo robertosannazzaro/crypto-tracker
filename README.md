@@ -1,5 +1,7 @@
 ## Crypto Tracker
 
+*try it* https://master.dt6v2bbyp0hpu.amplifyapp.com/
+
 ![home](home.png)
 
 This app let a user sign up and track his cryptocurrency investments. The app leverages AWS Amplify and GraphQL to download cryptocurrencies informations from cryptocompare.
